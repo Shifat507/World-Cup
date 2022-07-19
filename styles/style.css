@@ -22,12 +22,15 @@ banner
     font-size: 40px;
 }
 .button-font{
-    font-size: 20px;
+    font-size: 14px;
     background-color:#DD0000;
     border-radius: 5px;
     padding: 10px;
     color: white;
 }
+.fa-greater-than{
+    padding-left: 12px;
+} 
 .top-img img{
     width: 550px;
     padding-right: 2em;
@@ -40,3 +43,74 @@ body{
     margin-left: 130px;
     margin-right: 130px;
 }
+
+/* ------------
+blog 
+---------------*/
+.blog{
+    padding-top: 130px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+}
+.select-option{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    margin-right: 24px;
+}
+.select-option button{
+    width: 252px;
+    height: 64px;
+    color: #161616;
+    font-size: 20px;
+    font-weight: 500;
+}
+.options{
+    padding: 30px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 30px;
+    border-radius: 10px;
+}
+button h3{
+    margin-top: 0%;
+    padding: 17px;
+}
+.select{
+    background: #DD0000
+}
+.select h3{
+    color: white;
+}
+
+/* Cards */
+.blogs{
+    width: 312px;
+    height: 362px;
+    border: 1px solid #e9e7e7;
+}
+.card-blogs{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card-button{
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+}
+.icon{
+    font-size: 24px;
+    padding-right: 10px;
+}
+.icon-txt{
+    font-size: 17px;
+    padding-right: 30px;
+}
+.second-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+}
+
