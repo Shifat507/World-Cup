@@ -5,6 +5,10 @@ font
 /* -------------
 banner 
 ---------------*/
+.banner{
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .Titel-box{
     background-color: #161616;
     border-radius: 15px;
@@ -42,8 +46,6 @@ body{
     padding-top: 50px;
     justify-content: center;
     margin: 0px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 /* ------------
@@ -54,6 +56,8 @@ blog
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     column-gap:6px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .select-option{
     width: 300px;
@@ -117,6 +121,43 @@ button h3{
 .players-blog{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap:6px;
+    row-gap:10px;
     column-gap:6px;
+}
+
+/* Footer-part */
+footer{
+    background: #161616;
+    color: white;
+}
+.first-part{
+    padding-top: 130px;
+    padding-left:90px;
+    padding-right: 90px;
+    text-align: center;
+}
+.second-part{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.social-media{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 75px;
+}
+.second-part a{
+    text-decoration: none;
+    color: #a19b9b;
+    padding-right: 25px;
+}
+.second-part a:hover{
+    color: white;
+}
+.social-icon{
+    color: #a19b9b;
+    font-size: 2em;
+    padding-right: 15px;
+}
+.social-icon:hover{
+    color: white;
 }
