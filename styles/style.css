@@ -39,9 +39,11 @@ banner
 /* utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    margin-top: 50px;
-    margin-left: 130px;
-    margin-right: 130px;
+    padding-top: 50px;
+    justify-content: center;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /* ------------
@@ -49,25 +51,25 @@ blog
 ---------------*/
 .blog{
     padding-top: 130px;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap:6px;
 }
 .select-option{
-    width: 312px;
-    height: 312px;
+    width: 300px;
+    height: 300px;
     background: #161616;
     border-radius: 10px;
-    margin-right: 24px;
 }
 .select-option button{
     width: 252px;
     height: 64px;
     color: #161616;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 .options{
-    padding: 30px;
+    padding: 26px;
     position: absolute;
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -86,16 +88,20 @@ button h3{
 }
 
 /* Cards */
-.blogs{
-    width: 312px;
-    height: 362px;
-    border: 1px solid #e9e7e7;
-}
-.card-blogs{
+.card-text{
     padding-top: 20px;
     padding-left: 20px;
 }
-.card-button{
+.card-img img{
+    width: 280px;
+}
+.blog-card{
+    width: 280px;
+    height: 342px;
+    border: 1px solid #e9e7e7;
+    border-radius: 9px;
+}
+.button-style{
     width: 100px;
     height: 32px;
     font-size: 16px;
@@ -108,9 +114,9 @@ button h3{
     font-size: 17px;
     padding-right: 30px;
 }
-.second-part{
+.players-blog{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
+    row-gap:6px;
+    column-gap:6px;
 }
-
