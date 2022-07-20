@@ -1,7 +1,7 @@
 /* Tablet View  */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
     .blog{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -166,6 +166,19 @@ button h3{
     padding: 60px 60px;
     text-align: center;
     display: none;
+}
+
+/* Back Button */
+.back-button{
+    margin: 0%;
+    font-size: 24px;
+    padding: 4px 15px;
+    padding-bottom: 3px;
+    background-color: #c9c1c1;
+}
+.fa-caret-left{
+    padding-right: 5px;
+    font-size: 30px;
 }
 
 
