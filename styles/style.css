@@ -180,3 +180,26 @@ footer{
 .social-icon:hover{
     color: white;
 }
+
+ 
+/*------------------------------------------------------
+                For website 2 (Upcomming Match) 
+        -------------------------------------------------------*/
+.view-card > p{
+    display: flex;
+}
+.view-card img{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.view-card span{
+    padding-top: 45px;
+}
+.card-text div p{
+    padding-left: 30px;
+}
+.card-height{
+    height: 280px;
+}
+
