@@ -124,9 +124,28 @@ button h3{
     row-gap:10px;
     column-gap:6px;
 }
+/* view all button */
+.view-button{
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+.view-button h4{
+    padding: 10px 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    color: white;
+}
+.position{
+    padding: 60px 60px;
+    text-align: center;
+    display: none;
+}
+
 
 /* Footer-part */
 footer{
+    margin-top: 130px;
     background: #161616;
     color: white;
 }
