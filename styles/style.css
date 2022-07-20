@@ -80,6 +80,10 @@ blog
     row-gap: 30px;
     border-radius: 10px;
 }
+.options button a{
+    text-decoration: none;
+    color: #161616;
+}
 button h3{
     margin-top: 0%;
     padding: 17px;
